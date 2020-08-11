@@ -4,17 +4,6 @@
    <js-module name="UserExperiorPlugin" src="www/UserExperiorPlugin.js">
       <clobbers target="UserExperior" />
    </js-module>
-   <platform name="android">
-      <framework src="src/android/userexperior-plugin.gradle" type="gradleReference" custom="true" />
-      <!--<lib-file src="src/android/userexperiorsdk-V2-2-04202018.aar"/>-->
-      <config-file parent="/*" target="res/xml/config.xml">
-         <feature name="UserExperiorPlugin">
-            <param name="android-package" value="com.userexperiorplugin.cordova.UserExperiorPlugin" />
-         </feature>
-      </config-file>
-      <config-file parent="/*" target="AndroidManifest.xml" />
-      <source-file src="src/android/UserExperiorPlugin.java" target-dir="src/com/userexperiorplugin/cordova" />
-   </platform>
    <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="UserExperiorPlugin">

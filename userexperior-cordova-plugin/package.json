@@ -6,13 +6,11 @@
   "cordova": {
     "id": "userexperior-cordova-plugin",
     "platforms": [
-      "android",
       "ios"
     ]
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
   ],
   "author": "UserExperior Technologies Pvt. Ltd.",
   "license": "ISC"
